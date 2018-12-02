@@ -1,1 +1,1 @@
-web: gunicorn python osama.py app:osama.py
+web: gunicorn osama.py app:osama.py
