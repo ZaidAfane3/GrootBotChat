@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Set GROOT_TOKEN to Access Token from your APP on Developers.facebook
 
-GROOT_TOKEN = ""
+GROOT_TOKEN = "EAAIFsf6srMoBAEliXGVAR45oXg68lZCfidUTp2O3am15OrzZAYbZAZCd14ILRUWIKQQuHm9jUQ7Im1k217qKnk16Cw34LlPkagg6e5hZBr8YdQEQXA2jZABwVciZAAVZCo6IfnZADHs9W51cBiZB91ZBbmkZCo2cSUH54Ifj0QRfKe6WKF2rx8bAS9wc"
 GROOT = Bot(GROOT_TOKEN)
 
 @app.route('/' , methods=['GET'])
